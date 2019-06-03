@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="login-chrome" duration-ms="14512" started-at="2019-05-01T15:14:35Z" finished-at="2019-05-01T15:14:50Z">
+    <groups>
+    </groups>
+    <test name="login validation-successful login" duration-ms="14512" started-at="2019-05-01T15:14:35Z" finished-at="2019-05-01T15:14:50Z">
+      <class name="com.nectar.ambrosia.tests.LoginScreen">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.nectar.ambrosia.tests.LoginScreen@409bded1]" name="beforeTest" is-config="true" duration-ms="3940" started-at="2019-05-01T20:44:35Z" finished-at="2019-05-01T20:44:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f26ead5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.nectar.ambrosia.tests.LoginScreen@409bded1]" name="test" duration-ms="10554" started-at="2019-05-01T20:44:39Z" finished-at="2019-05-01T20:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.nectar.ambrosia.tests.LoginScreen@409bded1]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-05-01T20:44:50Z" finished-at="2019-05-01T20:44:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f26ead5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.nectar.ambrosia.tests.LoginScreen -->
+    </test> <!-- login validation-successful login -->
+  </suite> <!-- login-chrome -->
+</testng-results>

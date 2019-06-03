@@ -1,0 +1,6 @@
+﻿sample,tcshortname,tcid,tcdescription,module,funcstorun,env,dataSheetName,runflag
+sample,tc-001,login error validation-empty fields,User should be displayed with error message when username and password are empty,loginError,com.nectar.ambrosia.tests.LoginScreen,lab,login,y
+sample,tc-002,login error validation-username-empty,User should be displayed with error message when username is empty,loginError,com.nectar.ambrosia.tests.LoginScreen,lab,login,y
+sample,tc-003,login error validation-password-empty,User should be displayed with error message when password is empty,loginError,com.nectar.ambrosia.tests.LoginScreen,lab,login,y
+sample,tc-004,login error validation-invalid credentials,User should be displayed with error message when invalid credentials ,loginError,com.nectar.ambrosia.tests.LoginScreen,lab,login,y
+sample,tc-005,login validation-successful login,User should be able to login successfully when valid credentials provided,login,com.nectar.ambrosia.tests.LoginScreen,lab,login,y

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login-ie]">
+  <test name="login validation-successful login(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.nectar.ambrosia.tests.LoginScreen">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.nectar.ambrosia.tests.LoginScreen -->
+    </classes>
+  </test> <!-- login validation-successful login(failed) -->
+</suite> <!-- Failed suite [login-ie] -->
